@@ -1,7 +1,5 @@
-import Swiper from 'swiper';
-import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 $(function () {
-  $(".class-gallery-list").slick({
+  $(".v-gallery-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -12,7 +10,7 @@ $(function () {
     dots: false,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".class-gallery-list-left",
-    nextArrow: ".class-gallery-list-right",
+    prevArrow: ".v-gallery-list-left",
+    nextArrow: ".v-gallery-list-right",
   });
 });
